@@ -11,6 +11,7 @@ var usersRouter = require('./routes/users');
 // *** STEP 1
 var movies = require('./routes/movies');
 var foot = require('./routes/football');
+var feargreed = require('./routes/feargreed');
 // ***
 
 //
@@ -49,6 +50,7 @@ app.use('/users', usersRouter);
 // *** STEP 2
 app.use('/api/movies', movies);
 app.use('/api/foot', foot);
+app.use('/api/feargreed', feargreed);
 // ***
 
 // catch 404 and forward to error handler
